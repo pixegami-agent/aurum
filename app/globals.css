@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
   --yellow: #F5C518;
@@ -30,5 +30,5 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Playfair Display', serif;
 }

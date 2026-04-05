@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Font Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Bebas+Neue&family=Space+Grotesk:wght@700&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #fff; font-family: sans-serif; padding: 40px; }
+  .grid { display: flex; flex-direction: column; gap: 0; }
+  .card {
+    padding: 40px 48px;
+    border-bottom: 1px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  .card:nth-child(even) { background: #F9F9F9; }
+  .num {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #F5C518;
+    background: #1A1A1A;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    letter-spacing: 0.05em;
+  }
+  .content { flex: 1; }
+  .label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #6B6B6B;
+    margin-bottom: 8px;
+  }
+  .headline {
+    font-size: 3.5rem;
+    line-height: 1.0;
+    color: #1A1A1A;
+    letter-spacing: -0.02em;
+  }
+  .sub {
+    font-size: 0.8rem;
+    color: #AAAAAA;
+    margin-top: 8px;
+    font-style: italic;
+  }
+  /* Font 1 - Playfair Display */
+  .f1 { font-family: 'Playfair Display', serif; font-weight: 900; }
+  /* Font 2 - Bebas Neue */
+  .f2 { font-family: 'Bebas Neue', sans-serif; font-weight: 400; letter-spacing: 0.03em; }
+  /* Font 3 - Space Grotesk */
+  .f3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; letter-spacing: -0.04em; }
+  /* Font 4 - Cormorant Garamond */
+  .f4 { font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 4.5rem; }
+  /* Font 5 - Clash Display (fallback via CSS + Google Fonts alternative) */
+  .f5 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; font-size: 2.8rem; }
+</style>
+</head>
+<body>
+<div class="grid">
+
+  <div class="card">
+    <div class="num">1</div>
+    <div class="content">
+      <div class="label">Playfair Display — Elegant Serif</div>
+      <div class="headline f1">We make brands<br><span style="color:#F5C518">impossible</span> to ignore.</div>
+      <div class="sub">Luxury · Editorial · Timeless — think Vogue, high-end fashion</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="num">2</div>
+    <div class="content">
+      <div class="label">Bebas Neue — Bold Condensed</div>
+      <div class="headline f2">We make brands<br><span style="color:#F5C518">impossible</span> to ignore.</div>
+      <div class="sub">High-impact · Punchy · Striking — think Nike, streetwear, sports</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="num">3</div>
+    <div class="content">
+      <div class="label">Space Grotesk — Modern Geometric</div>
+      <div class="headline f3">We make brands<br><span style="color:#F5C518">impossible</span> to ignore.</div>
+      <div class="sub">Clean · Confident · Contemporary — great for a modern creative agency</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="num">4</div>
+    <div class="content">
+      <div class="label">Cormorant Garamond — Luxury Serif</div>
+      <div class="headline f4">We make brands<br><span style="color:#F5C518">impossible</span> to ignore.</div>
+      <div class="sub">Ultra-refined · Dramatic · High-fashion — feels like a luxury atelier</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="num">5</div>
+    <div class="content">
+      <div class="label">Clash Display — Brutalist Modern</div>
+      <div class="headline f5">We make brands<br><span style="color:#F5C518">impossible</span> to ignore.</div>
+      <div class="sub">Bold · Editorial · Personality-driven — very current, strong presence</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

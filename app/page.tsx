@@ -77,7 +77,7 @@ export default function Home() {
       {/* NAV */}
       <nav style={{ borderBottom: '1px solid #EBEBEB' }} className="fixed top-0 left-0 right-0 z-50 bg-white">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.5rem', fontWeight: 800, letterSpacing: '-0.03em' }}>
+          <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.5rem', fontWeight: 800, letterSpacing: '-0.03em' }}>
             <span style={{ color: '#1A1A1A' }}>AU</span>
             <span style={{ color: '#F5C518' }}>RUM</span>
           </div>
@@ -95,7 +95,7 @@ export default function Home() {
 
           <div className="hidden md:flex items-center gap-3">
             <a href="#contact"
-              style={{ background: '#1A1A1A', color: '#FFFFFF', fontFamily: 'Syne, sans-serif', fontWeight: 600, fontSize: '0.875rem', padding: '0.625rem 1.5rem', borderRadius: '100px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              style={{ background: '#1A1A1A', color: '#FFFFFF', fontFamily: 'Playfair Display, serif', fontWeight: 600, fontSize: '0.875rem', padding: '0.625rem 1.5rem', borderRadius: '100px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               Start a Project <ArrowRight size={16} />
             </a>
           </div>
@@ -112,7 +112,7 @@ export default function Home() {
             {['Work', 'Services', 'About', 'Awards', 'Contact'].map(item => (
               <a key={item} href={`#${item.toLowerCase()}`}
                 onClick={() => setMenuOpen(false)}
-                style={{ display: 'block', fontFamily: 'Syne, sans-serif', fontSize: '1.25rem', fontWeight: 600, color: '#1A1A1A', padding: '0.75rem 0', textDecoration: 'none', borderBottom: '1px solid #F4F4F4' }}>
+                style={{ display: 'block', fontFamily: 'Playfair Display, serif', fontSize: '1.25rem', fontWeight: 600, color: '#1A1A1A', padding: '0.75rem 0', textDecoration: 'none', borderBottom: '1px solid #F4F4F4' }}>
                 {item}
               </a>
             ))}
@@ -129,7 +129,7 @@ export default function Home() {
           </span>
         </div>
 
-        <h1 style={{ fontFamily: 'Syne, sans-serif', fontSize: 'clamp(3rem, 8vw, 7rem)', fontWeight: 800, lineHeight: '1.0', letterSpacing: '-0.04em', color: '#1A1A1A', marginBottom: '1.5rem', maxWidth: '900px' }}>
+        <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(3rem, 8vw, 7rem)', fontWeight: 800, lineHeight: '1.0', letterSpacing: '-0.04em', color: '#1A1A1A', marginBottom: '1.5rem', maxWidth: '900px' }}>
           We make brands<br />
           <span style={{ color: '#F5C518' }}>impossible</span><br />
           to ignore.
@@ -141,11 +141,11 @@ export default function Home() {
 
         <div className="flex flex-wrap gap-4 items-center">
           <a href="#work"
-            style={{ background: '#F5C518', color: '#1A1A1A', fontFamily: 'Syne, sans-serif', fontWeight: 700, fontSize: '1rem', padding: '1rem 2rem', borderRadius: '100px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'transform 0.2s' }}>
+            style={{ background: '#F5C518', color: '#1A1A1A', fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1rem', padding: '1rem 2rem', borderRadius: '100px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'transform 0.2s' }}>
             See Our Work <ArrowRight size={18} />
           </a>
           <a href="#contact"
-            style={{ fontFamily: 'Syne, sans-serif', fontWeight: 600, fontSize: '1rem', color: '#1A1A1A', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', borderBottom: '2px solid #1A1A1A', paddingBottom: '2px' }}>
+            style={{ fontFamily: 'Playfair Display, serif', fontWeight: 600, fontSize: '1rem', color: '#1A1A1A', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', borderBottom: '2px solid #1A1A1A', paddingBottom: '2px' }}>
             Get In Touch
           </a>
         </div>
@@ -163,7 +163,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((s, i) => (
               <div key={i} style={{ textAlign: 'center' }}>
-                <div style={{ fontFamily: 'Syne, sans-serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#F5C518', letterSpacing: '-0.03em', lineHeight: 1 }}>
+                <div style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#F5C518', letterSpacing: '-0.03em', lineHeight: 1 }}>
                   {s.value}
                 </div>
                 <div style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.875rem', color: '#AAAAAA', marginTop: '0.5rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
@@ -182,7 +182,7 @@ export default function Home() {
             <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#F5C518', display: 'block', marginBottom: '1rem' }}>
               What We Do
             </span>
-            <h2 style={{ fontFamily: 'Syne, sans-serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#1A1A1A', letterSpacing: '-0.03em', lineHeight: 1.1, maxWidth: '600px' }}>
+            <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#1A1A1A', letterSpacing: '-0.03em', lineHeight: 1.1, maxWidth: '600px' }}>
               Full-spectrum creative power.
             </h2>
           </div>
@@ -195,7 +195,7 @@ export default function Home() {
                 <div style={{ width: '56px', height: '56px', borderRadius: '12px', background: '#F5C518', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.5rem', color: '#1A1A1A' }}>
                   {s.icon}
                 </div>
-                <h3 style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.5rem', fontWeight: 700, color: i % 2 === 0 ? '#1A1A1A' : '#FFFFFF', marginBottom: '0.75rem' }}>
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.5rem', fontWeight: 700, color: i % 2 === 0 ? '#1A1A1A' : '#FFFFFF', marginBottom: '0.75rem' }}>
                   {s.title}
                 </h3>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '1rem', lineHeight: '1.7', color: i % 2 === 0 ? '#6B6B6B' : '#AAAAAA' }}>
@@ -215,12 +215,12 @@ export default function Home() {
               <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#F5C518', display: 'block', marginBottom: '1rem' }}>
                 Selected Work
               </span>
-              <h2 style={{ fontFamily: 'Syne, sans-serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#1A1A1A', letterSpacing: '-0.03em', lineHeight: 1.1 }}>
+              <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#1A1A1A', letterSpacing: '-0.03em', lineHeight: 1.1 }}>
                 Work that wins.
               </h2>
             </div>
             <a href="#contact"
-              style={{ fontFamily: 'Syne, sans-serif', fontWeight: 600, fontSize: '0.875rem', color: '#1A1A1A', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', borderBottom: '2px solid #1A1A1A', paddingBottom: '2px' }}>
+              style={{ fontFamily: 'Playfair Display, serif', fontWeight: 600, fontSize: '0.875rem', color: '#1A1A1A', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', borderBottom: '2px solid #1A1A1A', paddingBottom: '2px' }}>
               View All Projects <ArrowRight size={16} />
             </a>
           </div>
@@ -234,7 +234,7 @@ export default function Home() {
                   <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: w.text, opacity: 0.6 }}>
                     {w.category}
                   </span>
-                  <h3 style={{ fontFamily: 'Syne, sans-serif', fontSize: '2.5rem', fontWeight: 800, color: w.text, marginTop: '0.5rem', letterSpacing: '-0.03em' }}>
+                  <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '2.5rem', fontWeight: 800, color: w.text, marginTop: '0.5rem', letterSpacing: '-0.03em' }}>
                     {w.client}
                   </h3>
                 </div>
@@ -258,7 +258,7 @@ export default function Home() {
           <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#F5C518', display: 'block', marginBottom: '1rem' }}>
             Recognition
           </span>
-          <h2 style={{ fontFamily: 'Syne, sans-serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#FFFFFF', letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: '4rem' }}>
+          <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#FFFFFF', letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: '4rem' }}>
             Industry-recognised.<br />Globally respected.
           </h2>
 
@@ -267,10 +267,10 @@ export default function Home() {
               <div key={i}
                 style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '2rem 0', borderBottom: '1px solid #2C2C2C', flexWrap: 'wrap', gap: '1rem' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
-                  <span style={{ fontFamily: 'Syne, sans-serif', fontSize: '0.875rem', fontWeight: 700, color: '#F5C518', minWidth: '50px' }}>
+                  <span style={{ fontFamily: 'Playfair Display, serif', fontSize: '0.875rem', fontWeight: 700, color: '#F5C518', minWidth: '50px' }}>
                     {a.year}
                   </span>
-                  <h3 style={{ fontFamily: 'Syne, sans-serif', fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', fontWeight: 700, color: '#FFFFFF' }}>
+                  <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', fontWeight: 700, color: '#FFFFFF' }}>
                     {a.title}
                   </h3>
                 </div>
@@ -289,7 +289,7 @@ export default function Home() {
           <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#F5C518', display: 'block', marginBottom: '1rem' }}>
             Client Stories
           </span>
-          <h2 style={{ fontFamily: 'Syne, sans-serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#1A1A1A', letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: '4rem' }}>
+          <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, color: '#1A1A1A', letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: '4rem' }}>
             The proof is in the praise.
           </h2>
 
@@ -306,12 +306,12 @@ export default function Home() {
                 </p>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                   <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: '#1A1A1A', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <span style={{ fontFamily: 'Syne, sans-serif', fontSize: '0.75rem', fontWeight: 700, color: '#F5C518' }}>
+                    <span style={{ fontFamily: 'Playfair Display, serif', fontSize: '0.75rem', fontWeight: 700, color: '#F5C518' }}>
                       {t.initials}
                     </span>
                   </div>
                   <div>
-                    <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '0.9rem', fontWeight: 700, color: '#1A1A1A' }}>{t.name}</div>
+                    <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '0.9rem', fontWeight: 700, color: '#1A1A1A' }}>{t.name}</div>
                     <div style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', color: '#6B6B6B' }}>{t.role}</div>
                   </div>
                 </div>
@@ -324,14 +324,14 @@ export default function Home() {
       {/* CTA */}
       <section id="contact" style={{ padding: '8rem 0', background: '#F5C518' }}>
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 style={{ fontFamily: 'Syne, sans-serif', fontSize: 'clamp(2.5rem, 6vw, 5rem)', fontWeight: 800, color: '#1A1A1A', letterSpacing: '-0.04em', lineHeight: 1.0, marginBottom: '1.5rem' }}>
+          <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(2.5rem, 6vw, 5rem)', fontWeight: 800, color: '#1A1A1A', letterSpacing: '-0.04em', lineHeight: 1.0, marginBottom: '1.5rem' }}>
             Ready to be<br />impossible to ignore?
           </h2>
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '1.1rem', color: '#2C2C2C', maxWidth: '480px', margin: '0 auto 3rem', lineHeight: '1.7' }}>
             Tell us about your brand. We&rsquo;ll tell you what&rsquo;s possible.
           </p>
           <a href="mailto:hello@aurum.agency"
-            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.75rem', background: '#1A1A1A', color: '#FFFFFF', fontFamily: 'Syne, sans-serif', fontWeight: 700, fontSize: '1.1rem', padding: '1.125rem 2.5rem', borderRadius: '100px', textDecoration: 'none' }}>
+            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.75rem', background: '#1A1A1A', color: '#FFFFFF', fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.1rem', padding: '1.125rem 2.5rem', borderRadius: '100px', textDecoration: 'none' }}>
             Start a Conversation <ArrowRight size={20} />
           </a>
         </div>
@@ -340,7 +340,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer style={{ background: '#1A1A1A', padding: '3rem 0' }}>
         <div className="max-w-7xl mx-auto px-6 flex flex-wrap items-center justify-between gap-4">
-          <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.25rem', fontWeight: 800, letterSpacing: '-0.03em' }}>
+          <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.25rem', fontWeight: 800, letterSpacing: '-0.03em' }}>
             <span style={{ color: '#FFFFFF' }}>AU</span>
             <span style={{ color: '#F5C518' }}>RUM</span>
           </div>
