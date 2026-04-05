@@ -76,7 +76,7 @@ export default function Home() {
 
       {/* NAV */}
       <nav style={{ borderBottom: '1px solid #EBEBEB' }} className="fixed top-0 left-0 right-0 z-50 bg-white">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-8 md:px-12 py-4 flex items-center justify-between">
           <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.5rem', fontWeight: 800, letterSpacing: '-0.03em' }}>
             <span style={{ color: '#1A1A1A' }}>AU</span>
             <span style={{ color: '#F5C518' }}>RUM</span>
@@ -121,7 +121,7 @@ export default function Home() {
       </nav>
 
       {/* HERO */}
-      <section style={{ paddingTop: '120px', paddingBottom: '80px', minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center' }} className="max-w-7xl mx-auto px-6">
+      <section style={{ paddingTop: '120px', paddingBottom: '80px', minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center' }} className="max-w-7xl mx-auto px-8 md:px-12">
         <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#FFF3B0', border: '1px solid #F5C518', borderRadius: '100px', padding: '0.375rem 1rem', marginBottom: '2rem', width: 'fit-content' }}>
           <Award size={14} style={{ color: '#1A1A1A' }} />
           <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', fontWeight: 600, color: '#1A1A1A', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
@@ -159,7 +159,7 @@ export default function Home() {
 
       {/* STATS TICKER */}
       <section style={{ background: '#1A1A1A', padding: '4rem 0' }}>
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-8 md:px-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((s, i) => (
               <div key={i} style={{ textAlign: 'center' }}>
@@ -177,7 +177,7 @@ export default function Home() {
 
       {/* SERVICES */}
       <section id="services" style={{ padding: '8rem 0', background: '#FFFFFF' }}>
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-8 md:px-12">
           <div style={{ marginBottom: '4rem' }}>
             <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#F5C518', display: 'block', marginBottom: '1rem' }}>
               What We Do
@@ -209,7 +209,7 @@ export default function Home() {
 
       {/* WORK */}
       <section id="work" style={{ padding: '8rem 0', background: '#F4F4F4' }}>
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-8 md:px-12">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '4rem', flexWrap: 'wrap', gap: '2rem' }}>
             <div>
               <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#F5C518', display: 'block', marginBottom: '1rem' }}>
@@ -254,7 +254,7 @@ export default function Home() {
 
       {/* AWARDS */}
       <section id="awards" style={{ padding: '8rem 0', background: '#1A1A1A' }}>
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-8 md:px-12">
           <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#F5C518', display: 'block', marginBottom: '1rem' }}>
             Recognition
           </span>
@@ -285,7 +285,7 @@ export default function Home() {
 
       {/* TESTIMONIALS */}
       <section style={{ padding: '8rem 0', background: '#FFFFFF' }}>
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-8 md:px-12">
           <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.8rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#F5C518', display: 'block', marginBottom: '1rem' }}>
             Client Stories
           </span>
